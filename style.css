@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    min-height: 100vh;
+    background:  hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+.container{
+    box-shadow: 1px 16px 8px 7px rgb(12, 22, 40);   
+    border-radius: 0.8rem;
+    background-color: hsl(216, 50%, 16%);
+    min-height: 75vh;
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+}
+.imagen{          
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.data{
+    /* border: 3px solid rgb(43, 255, 0); */
+    margin-left: 1rem; 
+    margin-right: 1rem;
+   
+
+}
+.imagen img{    
+    height: 80%;
+    width: 90%;
+    border-radius: 0.8rem;
+    margin: 1rem 1rem 0rem 1rem;
+}
+
+
+.card1{
+    
+    /* border: 1px solid white; */
+    
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.footer p:nth-of-type(1){
+    color: rgb(7,252,249);
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    
+}
+.footer p:nth-of-type(1)::before{
+      margin-right: 0.5rem;
+     content: url('./images/icon-ethereum.svg');
+}
+.footer p:nth-of-type(2){
+    color: rgb(77, 113, 165);    
+}
+.footer p:nth-of-type(2)::before{
+    margin-right: 0.5rem;
+    content: url('./images/icon-clock.svg');
+}
+
+.body{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.body p:nth-last-child(2n) {
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
+.body p:nth-of-type(2) {
+    color: rgb(77, 113, 165);  
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;  
+}
+.body p:nth-of-type(1):hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.card2 {
+    display: flex;     
+    font-size: 0.9rem;
+    font-weight: 400;
+    word-spacing: 0.2rem;
+    padding-top: 0.5rem;
+    /* border: 1px solid blue; */
+   
+    
+}
+.card2 img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.card2 p{
+    line-height: 2rem;
+    margin-left: 1rem;
+}
+.card2 p:hover{
+    color: rgb(7,252,249);
+    cursor: pointer;
+}
+span{
+    color: rgb(77, 113, 165);
+}
+hr{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border:0.2px solid rgb(77, 113, 165);
+}
+
+@media (max-width: 767.98px) {
+    .container{
+  
+    
+        min-height: 70vh;
+        width: 90%;
+    
+    }
+
+ }
