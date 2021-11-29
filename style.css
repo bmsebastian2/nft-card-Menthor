@@ -34,6 +34,7 @@ main{
     width: 90%;
     border-radius: 0.8rem;
     margin: 1rem 1rem 0rem 1rem;
+   
     
 }
 
@@ -124,7 +125,7 @@ hr{
 
  }
  
-@media (min-width: 1023.98px) {
+@media (min-width: 767.98px) {
     .container{         
         min-height: 50vh;    
         width: 18rem;
